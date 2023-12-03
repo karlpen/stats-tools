@@ -2,6 +2,8 @@
 import numpy as np
 from scipy.stats import chisquare
 
+# ATTENTION: THIS IS A SIMPLE CHI-SQUARE STATISTIC, IT IS NOT A CHI-SQUARE FOR TREND!
+
 # Create two arrays representing the observed frequencies of the rates for each period
 observed_period1 = [4.716981132, 4.87804878, 3.4, 6.8, 0, 4.6, 4.3, 3.9, 4.8, 9.4]  # Replace [...] with your observed frequencies for period 1
 observed_period2 = [0, 9.8, 0, 0, 0, 0, 2.958579882, 0, 0, 3.484320557]  # Replace [...] with your observed frequencies for period 2
